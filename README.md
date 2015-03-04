@@ -1,2 +1,12 @@
-# http-load-balancing
-Load balancing reference code
+# Load balancing reference code
+
+The reference code in this repository demostrates possible implementation of load balancing techniques desribed in the following article:
+http://blog.wmspanel.com/2015/02/hls-dash-media-streaming-load-balancing.html
+
+This code may be applied to perform balancing of any HTTP-based streaming like HLS, MPRG-DASH, Icecast etc.
+
+geo-balancing directory has a GeoLoadBalancer PHP class which allows performing balancing based on geo-location of a viewer. The test.php script shows class' proper usage with several examples.
+
+
+This reference code is brought to you by WMSPanel team, https://wmspanel.com/
+Check our freeware streaming server called Nimble Streamer which is capable of HTTP-based media streaming using technologies like HLS, DASH, Icecast etc: https://wmspanel.com/nimble
